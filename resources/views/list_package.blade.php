@@ -148,25 +148,4 @@
 </div>
 <!-- /.content-wrapper -->
 
-<!-- Modal -->
-<!-- <div class="modal fade" id="view_{{$package->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header bg-theme">
-                <h5 class="modal-title text-center" id="exampleModalLabel">Are you sure want to delete?</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <ul style="list-style-type: none; text-align: center;">
-                    <li><a href="{{ route('deletePackage', $package->package_id) }}" class="btn btn-sm btn-success"><i
-                                class="fa fa-check"></i></a></li>
-                    <li><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-</div> -->
 @include('footer')
